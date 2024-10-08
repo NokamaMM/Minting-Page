@@ -3,7 +3,8 @@ const DecentFees = [
   {chainId: 1, fee: 0.00077},
   {chainId: 10, fee: 0.00044},
   {chainId: 137, fee: 0.81},
-  {chainId: 42161, fee: 0.00044}
+  {chainId: 42161, fee: 0.00044},
+  {chainId: 79685, fee: 0.000044}
 ]
 
 export function getContractFee(chainId: number) {
