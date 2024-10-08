@@ -37,7 +37,7 @@ const { chains, publicClient } = configureChains(
   ]
 );
 
-const walletConnectId = process.env.NEXT_PUBLIC_WALLETCONNECT_ID as string;
+const walletConnectId = "14bd36f55d4e9a70520763cf0703a9fa" as string;
 const connectors = connectorsForWallets([
   {
     groupName: 'Box Based Wallets',
